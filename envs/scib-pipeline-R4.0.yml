@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python>=3.7
+  - python>=3.8
   - r-base=4.0
   - rpy2
   - pip
@@ -32,12 +32,12 @@ dependencies:
   - r-seuratobject
   - r-spatstat=1.64
   - pip:
-#    - scib==1.0.4
+#    - scib>=1.0.4
     - git+https://github.com/theislab/scib.git
-    - igraph<0.10
-    - trvaep==0.1.0
+    - igraph
+    - trvaep>=0.1.0
 #    - git+https://github.com/pinin4fjords/mnnpy.git
     - scgen>=2.1.0
-#    - trvae==1.1.2
-#    - desc==2.0.3
-#    - keras==2.2.4
+#    - trvae>=1.1.2
+#    - desc>=2.0.3
+#    - keras>=2.2.4
